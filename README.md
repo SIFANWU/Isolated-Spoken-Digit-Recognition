@@ -13,13 +13,13 @@ Items comment
 ----
 hmm.py ：Defines a basic left-to-right no-skip HMM and employs Viterbi to find the most probable path through the HMM given a sequence of
          observations. Function viterbi_decoding is incomplete.</br>
-         
+</br>         
 hmm_train.py : Performs Viterbi-style HMM training using viterbi_decoding from hmm.py . Function viterbi_train is incomplete.</br>
-
+</br> 
 hmm_eval.py : Performs evaluation of HMMs using viterbi_decoding from hmm.py . Function “ eval_HMMs ” is incomplete.</br>
-
+</br> 
 gmm_demo.py : Demonstrates the use of Gaussian Mixture Models (GMMs) for this task. This program serves as a baseline for comparison with               the HMM-based recogniser. <br>
-
+</br> 
 test_viterbi.py : Uses a set of pre-trained HMMs to test viterbi_decoding from hmm.py . For a test signal it computes the log-likelihood                     score and the most probable state sequence for the corresponding HMM and a mismatched HMM. The correct HMM would produce                   a higher score and a more reasonable state sequence.</br>
-
+</br> 
 speechtech/ : A folder containing auxiliary functions needed for this task. You don’t need to modify anything in this folder.
