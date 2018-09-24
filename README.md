@@ -8,3 +8,5 @@ The speech data is selected from the TI-Digits corpus and consists of isolated d
 
 *data/flists/flist_train.txt</br>
 *data/flists/flist_test.txt
+
+Items com
